@@ -1,5 +1,7 @@
 # Servicify
 
+[![Build Status](https://semaphoreci.com/api/v1/olimart/servicify/branches/master/badge.svg)](https://semaphoreci.com/olimart/servicify)
+
 ## Installation
 
 Add this line to your application's Gemfile:
