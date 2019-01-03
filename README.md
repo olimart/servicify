@@ -21,6 +21,7 @@ Or install it yourself as:
 ## Usage
 
 > https://www.driftingruby.com/episodes/service-objects-for-api-interactions-with-twilio
+
 > All the credit goes to [Dave Kimura](https://www.twitter.com/kobaltz) from [DriftingRuby](https://www.driftingruby.com)
 
 ```ruby
