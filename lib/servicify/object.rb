@@ -7,6 +7,7 @@ module Servicify
     end
 
     attr_reader :result
+    
     def constructor
       @result = call
       self
