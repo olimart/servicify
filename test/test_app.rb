@@ -1,6 +1,6 @@
 require_relative "../lib/servicify"
 
-class TestApp < Servicify::Object
+class TestApp < ServiceResult
   def initialize(a, b)
     @a = a
     @b = b

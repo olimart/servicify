@@ -7,7 +7,7 @@ module Servicify
     end
 
     attr_reader :result
-    
+
     def constructor
       @result = call
       self
@@ -30,3 +30,5 @@ module Servicify
     end
   end
 end
+
+class ServiceResult < Servicify::Object; end
