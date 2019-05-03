@@ -35,7 +35,14 @@ class MyService < Servicify::Object
 end
 ```
 
-Your service gives you access to `success?`, `failure?`, and `errors` methods when run.
+Your service will then gets access to `success?`, `failure?`, and `errors` methods.
+
+You can also write your service to inherit from `ServiceResult` class
+
+```ruby
+class MyService < ServiceResult
+end
+```
 
 ## Development
 

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Olivier"]
   spec.email         = ["olivier@yafoy.com"]
 
-  spec.summary       = "A Ruby gem for interacting with XXX's REST API"
-  spec.homepage      = "https://github.com/olimart/XXX"
+  spec.summary       = "A Ruby gem providing a skeleton to build service object"
+  spec.homepage      = "https://github.com/olimart/servicify"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
