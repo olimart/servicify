@@ -1,8 +1,8 @@
 module Servicify
   class Object
     class << self
-      def call(*arg)
-        new(*arg).constructor
+      def call(*arg, **opts)
+        new(*arg, **opts).constructor
       end
     end
 

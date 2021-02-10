@@ -14,6 +14,11 @@ class ObjectTest < Minitest::Test
     assert 2, service.result
   end
 
+  def test_accept_kword_arguments_without_deprecation
+    service = TestApp.call(1, 1, a: 1, b: ["A", "B"])
+    assert '{a: 1, b: ["A", "B"]}', service.opts
+  end
+
   def test_provide_failure_method
     service = TestApp.call("1", "2")
     assert service.failure?
