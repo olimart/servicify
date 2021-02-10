@@ -15,7 +15,7 @@ class TestApp < ServiceResult
   private
 
   def sum_up
-    return @a / @b
+    @a / @b
   rescue ZeroDivisionError => error
     errors.add :zero_division, error.message
   rescue => error

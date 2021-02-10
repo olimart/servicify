@@ -5,7 +5,13 @@ class ObjectTest < Minitest::Test
   def test_initialize_and_provide_success_method
     service = TestApp.call(1, 1)
     assert service.success?
+    assert 2, service.result
     assert service.errors.empty?
+  end
+
+  def test_returns_result
+    service = TestApp.call(1, 1)
+    assert 2, service.result
   end
 
   def test_provide_failure_method

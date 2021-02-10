@@ -30,5 +30,3 @@ module Servicify
     end
   end
 end
-
-class ServiceResult < Servicify::Object; end
